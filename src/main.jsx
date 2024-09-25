@@ -8,5 +8,7 @@ import FetchApp from "./FetchApp.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <FetchApp />
+    <HooksApp />
+    <FormApp />
   </StrictMode>
 );
